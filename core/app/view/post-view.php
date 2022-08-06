@@ -22,7 +22,7 @@ $cats = CategoryData::getPublics();
 <div class="list-group">
 <?php foreach($cats as $cat):?>
 
-  <a href="index.php?view=products&cat=<?php echo $cat->short_name; ?>" class="list-group-item"><i class="fa fa-chevron-right"></i>  <?php echo $cat->name; ?></a>
+  <a href="index.php?view=posts&cat=<?php echo $cat->short_name; ?>" class="list-group-item"><i class="fa fa-chevron-right"></i>  <?php echo $cat->name; ?></a>
 <?php endforeach; ?>
 </div>
 <?php endif; ?>

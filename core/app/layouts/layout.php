@@ -115,7 +115,7 @@ $client = ClientData::getById($_SESSION["client_id"]);
 <div class="row">
 <div class="col-md-12">
 <hr>
-<p><b>Katalog</b> v1.1 &copy; 2018</p>
+<p><b>Katalog</b> v1.2 &copy; 2022</p>
 <ul class="list-inline">
 <li><p class="text-muted">Powered by <a href="http://evilnapsis.com/company/" target="_blank">Evilnapsis</a></p></li>
 </ul>

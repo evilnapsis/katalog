@@ -3,7 +3,7 @@ class ConfigurationData {
 	public static $tablename = "configuration";
 
 
-	public function ConfigurationData(){
+	public function __construct(){
 		$this->title = "";
 		$this->content = "";
 		$this->image = "";

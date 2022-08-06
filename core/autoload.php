@@ -25,6 +25,5 @@ include "controller/Post.php";
 include "controller/Cookie.php";
 include "controller/Session.php";
 include "controller/Lb.php";
-include "admin/core/controller/mercadopago.php";
 
 ?>

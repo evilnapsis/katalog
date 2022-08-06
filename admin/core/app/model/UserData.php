@@ -12,7 +12,7 @@ class UserData {
 
 	}
 
-	public function Userdata(){
+	public function __construct(){
 		$this->name = "";
 		$this->lastname = "";
 		$this->email = "";

@@ -4,7 +4,7 @@ class ClientData {
 
 
 
-	public function ClientData(){
+	public function __construct(){
 		$this->name = "";
 		$this->lastname = "";
 		$this->email = "";

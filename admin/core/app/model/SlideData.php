@@ -3,7 +3,7 @@ class SlideData {
 	public static $tablename = "slide";
 
 
-	public function SlideData(){
+	public function __construct(){
 		$this->title = "";
 		$this->content = "";
 		$this->image = "";

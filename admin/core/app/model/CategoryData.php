@@ -3,7 +3,7 @@ class CategoryData {
 	public static $tablename = "category";
 
 
-	public function CategoryData(){
+	public function __construct(){
 		$this->title = "";
 		$this->content = "";
 		$this->image = "";
